@@ -2,13 +2,32 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>com.jamasoftware</groupId>
-		<artifactId>jama-parent</artifactId>
-		<version>0.1.0-SNAPSHOT</version>
+		<groupId>com.jamasoftware.oss</groupId>
+		<artifactId>jama-parent-oss</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
 	</parent>
 	<groupId>com.jamasoftware.maven.enforcer</groupId>
 	<artifactId>releasedev-enforcer-rule</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<name>${project.artifactId}: enforce release/dev profiles is activated</name>
+	<description>Enforcer rule to check at least one of the profiles
+		release and dev is activated</description>
+	<url>https://github.com/JamaSoftwareEngineering/releasedev-enforcer-rule</url>
+	<inceptionYear>2015</inceptionYear>
+	<organization>
+		<name>Jama Software</name>
+		<url>http://www.jamasoftware.com/</url>
+	</organization>
+	<licenses>
+		<license>
+			<name>Apache License, Version 2.0</name>
+			<url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+		</license>
+	</licenses>
+	<scm>
+		<connection>scm:git:git@github.com:JamaSoftwareEngineering/releasedev-enforcer-rule.git</connection>
+		<tag>HEAD</tag>
+	</scm>
 	<dependencies>
 		<dependency>
 			<groupId>org.apache.maven</groupId>
