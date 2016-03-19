@@ -8,7 +8,7 @@
     </parent>
     <groupId>com.jamasoftware.maven.enforcer</groupId>
     <artifactId>releasedev-enforcer-rule</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
     <name>${project.artifactId}: enforce release/dev profiles is activated</name>
     <description>Enforcer rule to check at least one of the profiles
 		release and dev is activated</description>
@@ -26,7 +26,7 @@
     </licenses>
     <scm>
         <connection>scm:git:git@github.com:JamaSoftwareEngineering/releasedev-enforcer-rule.git</connection>
-        <tag>releasedev-enforcer-rule-1.0.0</tag>
+        <tag>HEAD</tag>
     </scm>
     <dependencies>
         <dependency>
