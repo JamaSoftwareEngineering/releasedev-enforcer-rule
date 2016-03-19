@@ -4,7 +4,7 @@
 	<parent>
 		<groupId>com.jamasoftware.oss</groupId>
 		<artifactId>jama-parent-oss</artifactId>
-		<version>1.0.0-SNAPSHOT</version>
+		<version>1.0.0</version>
 	</parent>
 	<groupId>com.jamasoftware.maven.enforcer</groupId>
 	<artifactId>releasedev-enforcer-rule</artifactId>
